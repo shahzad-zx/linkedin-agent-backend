@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": "1c38bb80-6ba8-4a1a-bfd0-949e6b4235f4",
+      "name": "Shahzad",
+      "email": "mdshahzad17051@gmail.com",
+      "passwordHash": "$2a$10$U.Jy2yrkauJzUuxvT1x98ONnogWKoUlYbKcz.8ELBN4cqBJ4YLE6O",
+      "createdAt": "2026-07-06T11:18:26.054Z"
+    },
+    {
+      "id": "0f7b54f1-529a-4258-8cbd-9989d39de541",
+      "name": "Ubuntu",
+      "email": "ubuntu17051@gmail.com",
+      "passwordHash": "$2a$10$YXSidvjLaAhplFxMUQgUTuaNV5UEaFtWIltro7CtM44OlEJTzec.m",
+      "createdAt": "2026-07-06T11:37:14.411Z"
+    },
+    {
+      "id": "fde8a4db-2af3-4efe-869b-2bf82c8bfe5d",
+      "name": "Test User",
+      "email": "testuser@example.com",
+      "passwordHash": "$2a$10$FA/k0fzXNNARAlvUFcalmeaQxW58seKUPmV3E4dLg4HmDT./BTzB6",
+      "createdAt": "2026-07-06T11:45:44.963Z"
+    },
+    {
+      "id": "134bb46d-5b4c-4d97-956e-16c76baeaa09",
+      "name": "A",
+      "email": "t@gmail.com",
+      "passwordHash": "$2a$10$1a2XAHTg02MgeLMIvjG6HegnyuQkcRc5gm8fFnVVoRFFjUHeYrwVy",
+      "createdAt": "2026-07-08T05:33:55.884Z"
+    },
+    {
+      "id": "3d9b39fc-2f79-4eb4-a40a-834f5ab7caab",
+      "name": "Test Tester",
+      "email": "tester_gemini_val_1@test.com",
+      "passwordHash": "$2a$10$lGvUY8Jp7EsO15dnfbsHs.B4yLLa/pcWl/4wc3PresZCTNaGkHOFy",
+      "createdAt": "2026-07-09T04:37:58.266Z"
+    },
+    {
+      "id": "4a31e430-22e1-48f7-9dc5-a67381693afe",
+      "name": "Deep",
+      "email": "deep@gmail.com",
+      "passwordHash": "$2a$10$v9CkS/XGaoD.WkVkyqDuNehBobctdFkzogb3zd./mDU1r0Oqc82Qa",
+      "createdAt": "2026-07-09T08:45:07.474Z"
+    }
+  ]
+}
