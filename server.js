@@ -29,8 +29,8 @@ if (!JWT_SECRET) {
   process.exit(1);
 }
 
-app.use(cors({ origin: CLIENT_URL, credentials: true }));
-// app.use(cors({ origin: "*", credentials: true }));
+// app.use(cors({ origin: CLIENT_URL, credentials: true }));
+app.use(cors({ origin: "*", credentials: true }));
 
 app.use(express.json());
 app.use(cookieParser());
