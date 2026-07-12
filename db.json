@@ -48,6 +48,20 @@
       "email": "j@gmail.com",
       "passwordHash": "$2a$10$aTmW/yIWQfayrZIVLsaVieXqfiQCUW3dc2pNqvWGKpFmtZ3olGQ5G",
       "createdAt": "2026-07-12T07:00:14.652Z"
+    },
+    {
+      "id": "28fcb73d-3daa-4140-9654-3d88b86f8445",
+      "name": "EE2E Tester",
+      "email": "test_val_790@test.com",
+      "passwordHash": "$2a$10$OlfR0mIy/foOb67zJZVAL.tpXFfVz.8ACcK6xjzpVsDdssmwfrQQC",
+      "createdAt": "2026-07-12T14:27:06.360Z"
+    },
+    {
+      "id": "e820e267-db95-4f3b-878d-24a78746f1b7",
+      "name": "asdf",
+      "email": "asjj@gmail.com",
+      "passwordHash": "$2a$10$DL6lGPPvjd0hJGvT48Fr7.YzicHDdJJbdKq821wYZosi7hd.BdhPm",
+      "createdAt": "2026-07-12T16:07:02.496Z"
     }
   ]
 }
