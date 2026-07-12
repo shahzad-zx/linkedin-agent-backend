@@ -41,6 +41,13 @@
       "email": "deep@gmail.com",
       "passwordHash": "$2a$10$v9CkS/XGaoD.WkVkyqDuNehBobctdFkzogb3zd./mDU1r0Oqc82Qa",
       "createdAt": "2026-07-09T08:45:07.474Z"
+    },
+    {
+      "id": "97d1addc-a9e4-487a-8587-edf81094e3f3",
+      "name": "asdf",
+      "email": "j@gmail.com",
+      "passwordHash": "$2a$10$aTmW/yIWQfayrZIVLsaVieXqfiQCUW3dc2pNqvWGKpFmtZ3olGQ5G",
+      "createdAt": "2026-07-12T07:00:14.652Z"
     }
   ]
 }

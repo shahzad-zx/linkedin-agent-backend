@@ -14,7 +14,7 @@ import { requireAuth } from "./middleware/auth.js";
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
 const CLIENT_URL = process.env.CLIENT_URL || "http://localhost:5173";
 const GROQ_API_KEY = process.env.GROQ_API_KEY;
 const JWT_SECRET = process.env.JWT_SECRET;
@@ -30,6 +30,8 @@ if (!JWT_SECRET) {
 }
 
 app.use(cors({ origin: CLIENT_URL, credentials: true }));
+// app.use(cors({ origin: "*", credentials: true }));
+
 app.use(express.json());
 app.use(cookieParser());
 
@@ -75,6 +77,10 @@ async function callGroq(systemPrompt, history) {
   const cleaned = raw.replace(/^```json\s*/i, "").replace(/```\s*$/i, "").trim();
   return JSON.parse(cleaned);
 }
+
+app.get('/', (req, res) => {
+  return res.send("Linked Agent is running")
+})
 
 // ---------- AUTH ----------
 
